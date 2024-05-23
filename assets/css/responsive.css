@@ -1,0 +1,16 @@
+/*PC*/
+@media(min-width:1024px){
+  
+}
+
+/* table  */
+@media  only screen and (min-width :740px ) and (max-width :1023px) {
+   
+}
+
+/* mobile  */
+@media only screen and (max-width: 739px){
+    .information{
+        padding:0;
+    }
+}

@@ -5,12 +5,56 @@
 
 /* table  */
 @media  only screen and (min-width :740px ) and (max-width :1023px) {
-   
+    .header a{
+        font-size: 16px;
+    }
+    .img-header{
+        height: 240px;
+        width: 100%;
+    }
+    .popular_products{
+        height: 300px;
+    }
 }
 
 /* mobile  */
 @media only screen and (max-width: 739px){
+    .header{
+        padding: 0 10px;
+    }
+    .header a{
+        text-align: left;
+        padding: 8px 0px 8px 22px;
+    }
+    .contenr_title-button{
+        width: 120px;
+        height: 40px;
+    }
     .information{
         padding:0;
+    }
+    .header_search-content{
+        display: none;
+    }
+    .header{
+        font-size: 2px;
+    }
+    .hidden-mobile{
+        display: none;
+    }
+    .img-header{
+        height: 170px;
+    }
+    .information_pr{
+        height: 70px;
+    }
+    .product{
+        padding: 0 12px ;
+    }
+    .popular_products{
+        height: 300px;
+    }
+    .img_luxury-left{
+        padding: 0 !important;
     }
 }
